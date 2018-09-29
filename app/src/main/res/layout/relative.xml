@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Relative Layout"
+        android:textSize="20sp"
+        app:fontFamily="serif"
+        tools:background="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="-6dp"
+        app:srcCompat="@drawable/icon"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView3"
+        android:gravity="center"
+        android:text="Filipino Travel Center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="156dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:text="Location:" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="228dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView5"
+        android:text="Manila, Luzon 1004 Philippines"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="-1dp"
+        android:text="Distance from UST:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="228dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView7"
+        android:text="2.4 km"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginStart="30dp"
+        android:text="BACK"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginEnd="30dp"
+        android:text="NEXT"
+        android:textSize="15sp" />
+</RelativeLayout>
